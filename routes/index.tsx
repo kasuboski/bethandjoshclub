@@ -7,7 +7,7 @@ export default function Home() {
       <img
         src="/welcometotheclub.gif"
         width="480" height="270"
-        alt="the fresh logo: a sliced lemon dripping with juice"
+        alt="welcome to the club"
       />
     </div>
   );
