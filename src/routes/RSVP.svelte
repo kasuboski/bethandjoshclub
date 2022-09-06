@@ -28,7 +28,7 @@
 <Weddinginfo/>
 
 <div style="display:flex;justify-content: center; margin-top: 2em;">
-	<img src="/images/selfieStowe.jpg" alt="Beth and Josh in Stowe, VT">
+	<img src="/images/gothicdip.jpg" alt="Beth and Josh in Gothic Quarter">
 </div>
 
 <div class="rsvpform">

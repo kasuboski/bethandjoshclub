@@ -48,7 +48,7 @@ p {
 
 <div class="ourstory">
 <div style="margin-top: 1%;">
-	<img src="/images/stairsSitting.jpg" alt="Beth and Josh sitting">
+	<img src="/images/cathedralflying.jpg" alt="Beth and Josh in Gothic Quarter">
 </div>
     <h2> Wedding Schedule</h2>
     <br>

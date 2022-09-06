@@ -43,7 +43,7 @@ p {
 
 <div class="ourstory">
 <div style="margin-top: 1%;">
-	<img src="/images/stairsSitting.jpg" alt="Beth and Josh sitting">
+	<img src="/images/waterreflection.jpg" alt="Beth and Josh in Gothic Quarter">
 </div>
     <h2>Our Story</h2>
     <hr class="smalldivider"/>

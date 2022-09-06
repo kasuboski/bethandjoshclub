@@ -49,7 +49,7 @@ p {
 
 <div class="ourstory">
     <div style="margin-top: 1%;">
-        <img src="/images/stairsSitting.jpg" alt="Beth and Josh sitting">
+        <img src="/images/gothicstroll.jpg" alt="Beth and Josh walking">
     </div>
     <br>
     <br>
