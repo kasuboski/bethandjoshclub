@@ -77,6 +77,7 @@
     <div class="row"> 
         <div class="column">
         <img src="/images/bridgeface.jpg" style="width:100%" alt="bridge pic">
+        <img src="/images/selfieWembley.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/cathedralflying.jpg" style="width:100%" alt="cathedral pic">
         <img src="/images/standingScotland.JPG" style="width:100%" alt="Scotland pic pose Beth and Josh">
         <img src="/images/backtoback.jpg" style="width:100%" alt="Beth and Josh pic">
@@ -93,11 +94,12 @@
         <img src="/images/cathedralpose.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/selfieMadrid.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/ringhands.jpg" style="width:100%" alt="Beth and Josh pic">
+        <img src="/images/selfieCool.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/facetoface.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/fountainsillyjosh.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/gothiccorridor.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/kneeling.jpg" style="width:100%" alt="Beth and Josh pic">
-        <img src="/images/gothicsnooty.jpg" style="width:100%" alt="Beth and Josh pic">
+        <img src="/images/selfieWurstfest.jpeg" style="width:100%" alt="Beth and Josh pic">
         
     </div>  
     <div class="column">
@@ -110,6 +112,7 @@
         <img src="/images/waterreflection.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/gothicstroll.jpg" style="width:100%" alt="Beth and Josh pic">
         <img src="/images/hangingout.jpg" style="width:100%" alt="Beth and Josh pic">
+        <img src="/images/gothicsnooty.jpg" style="width:100%" alt="Beth and Josh pic">
 
     </div>
     </div>
