@@ -2,7 +2,9 @@
 	.weddinginfo {
 		display: block;
         text-align: center;
-        width: 100%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
 		margin-top: 3em;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}

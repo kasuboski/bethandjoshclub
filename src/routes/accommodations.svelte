@@ -1,73 +1,84 @@
 <script>
-	import Navbar from "$lib/navbar.svelte";
-	import Header from "$lib/header.svelte";
-	import Weddinginfo from "$lib/weddinginfo.svelte";
+	import Navbar from '$lib/navbar.svelte';
+	import Header from '$lib/header.svelte';
 </script>
 
 <svelte:head>
 	<title>Accommodations| Beth & Josh</title>
-	<meta name="description" content="Accommodations"/>
+	<meta name="description" content="Accommodations" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
 
+<Header />
+
+<Navbar />
+
+<div class="ourstory">
+	<div style="margin-top: 1%;">
+		<img src="/images/gothicstroll.jpg" alt="Beth and Josh walking" />
+	</div>
+	<br />
+	<br />
+	<hr class="smalldivider" />
+	<h2>Accommodations</h2>
+	<hr class="smalldivider" />
+	<h3>Hyatt Place Downtown Milwaukee</h3>
+	<p>Info Wedding Code Link</p>
+	<br />
+	<h3>The Brewhouse Inn & Suites</h3>
+	<p>Info Wedding Code Link</p>
+	<br />
+</div>
+
 <style>
-.ourstory {
-    display: flex; 
-    flex: 5; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	.ourstory {
+		display: flex;
+		flex: 5;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
 
-}
+	@media screen and (max-width: 900px) {
+		h2,
+		h3,
+		p {
+			min-width: 80%;
+			text-align: center;
+		}
 
-h2 {
-    width: 40%;
-    text-align: center;
-}
+		h2 {
+			font-size: 1.25em;
+		}
 
-h3 {
-    width: 40%;
-    text-align: left;
-}
+		h3,
+		p {
+			font-size: 1em;
+		}
+		.smalldivider {
+			margin: 0;
+			min-width: 75%;
+		}
+	}
 
-.smalldivider {
-		width: 40%;
+	h2 {
+		width: 50%;
+		text-align: center;
+		margin: 0.5em;
+	}
+
+	h3 {
+		width: 50%;
+		margin: 1em 0em 0em 0em;
+	}
+
+	.smalldivider {
+		width: 50%;
 		border-top: 1px dotted green;
 	}
 
-p {
-    width: 40%;
-    text-align: left;
-}
-
+	p {
+		width: 50%;
+	}
 </style>
-
-<Header/>
-
-<Navbar/>
-
-<div class="ourstory">
-    <div style="margin-top: 1%;">
-        <img src="/images/gothicstroll.jpg" alt="Beth and Josh walking">
-    </div>
-    <br>
-    <br>
-    <hr class="smalldivider"/>
-    <h2>Accommodations</h2>
-    <hr class="smalldivider"/>
-    <h3>Hyatt Place Downtown Milwaukee</h3>
-    <p>
-        Info
-        Wedding Code
-        Link
-    </p>
-    <br>
-    <h3>The Brewhouse Inn & Suites</h3>
-    <p>
-        Info
-        Wedding Code
-        Link
-    </p>
-    <br>
-</div>
