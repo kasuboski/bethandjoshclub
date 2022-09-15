@@ -21,8 +21,23 @@
 
 }
 
+@media screen and (max-width: 900px) {
+    h2, p, .smalldivider {
+        min-width: 75%;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 1em 0em 0.2em 0em;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
 h2 {
-    width: 30%;
+    width: 40%;
     text-align: center;
 }
 
@@ -35,6 +50,11 @@ p {
     width: 60%;
 }
 
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
 </style>
 
 <Header/>
@@ -42,7 +62,7 @@ p {
 <Navbar/>
 
 <div class="ourstory">
-<div style="margin-top: 1%;">
+<div style="text-align: center; margin-top: 1%; ">
 	<img src="/images/waterreflection.jpg" alt="Beth and Josh in Gothic Quarter">
 </div>
     <h2>Our Story</h2>

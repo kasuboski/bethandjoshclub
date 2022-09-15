@@ -17,6 +17,12 @@ hr {
 		margin-top: 2%;
 		margin-bottom: 3%;
 	}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
 </style>
 
 <Header/>

@@ -11,7 +11,7 @@
 </svelte:head>
 
 <style>
-.ourstory {
+.mainstuff {
     display: flex; 
     flex: 5; 
     align-items: center; 
@@ -21,24 +21,51 @@
 
 }
 
+@media screen and (max-width: 900px) {
+    h2, h3, p, .smalldivider {
+        min-width: 75%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .smalldivider {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
 h2 {
-    width: 60%;
+    width: 55%;
     text-align: center;
+    margin: .5em;
 }
 
 h3 {
-    width: 60%;
+    width: 55%;
     text-align: left;
     margin-bottom: 0;
 }
 
 .smalldivider {
-		width: 60%;
+		width: 55%;
 		border-top: 1px dotted green;
 	}
 
 p {
-    width: 60%;
+    width: 55%;
     text-align: left;
 }
 
@@ -48,8 +75,8 @@ p {
 
 <Navbar/>
 
-<div class="ourstory">
-    <div style="margin-top: 1%;">
+<div class="mainstuff">
+    <div style="text-align: center; margin-top: 1%;">
         <img src="/images/gothicpointing.jpg" alt="Beth and Josh pointing at you">
     </div>
     <br>

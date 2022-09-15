@@ -20,24 +20,53 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+@media screen and (max-width: 900px) {
+    h2, h3, p {
+        min-width: 75%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .smalldivider {
+        margin: 0;
+        min-width: 60%;
+    }
+}
 
 h2 {
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 
 h3 {
-    width: 40%;
-    text-align: left;
+    width: 50%;
+    margin: 0 0 .3em 0;
 }
 
 .smalldivider {
-		width: 40%;
+		width: 50%;
 		border-top: 1px dotted green;
 	}
 
 p {
-    width: 40%;
+    width: 50%;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
 }
 
 </style>

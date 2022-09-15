@@ -21,24 +21,48 @@
 
 }
 
+@media screen and (max-width: 900px) {
+    h2, h3, p {
+        min-width: 80%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .smalldivider {
+        margin: 0;
+        min-width: 75%;
+    }
+}
+
 h2 {
-    width: 40%;
+    width: 50%;
     text-align: center;
+    margin: .5em;
 }
 
 h3 {
-    width: 40%;
-    text-align: left;
+    width: 50%;
+    margin: 1em 0em 0em 0em;
 }
 
 .smalldivider {
-		width: 40%;
+		width: 50%;
 		border-top: 1px dotted green;
 	}
 
 p {
-    width: 40%;
-    text-align: left;
+    width: 50%;
 }
 
 </style>

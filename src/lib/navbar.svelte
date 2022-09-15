@@ -4,6 +4,7 @@
 
 
 <style>
+
 .navbar {
 		display:flex;
 		flex: 1;
@@ -25,7 +26,8 @@
 	a {
 		text-decoration: none;
 		color: black;
-		margin: 0;
+		margin: 0em .25em;
+		
 	}
 
 	hr {
@@ -34,6 +36,20 @@
 		margin-top: 2%;
 		margin-bottom: 3%;
 	}
+
+
+@media screen and (max-width: 900px) {
+
+	ul {
+		flex-direction: column;
+		text-align: center;
+	}
+	a {
+		font-size: 16px;
+		margin-top: .25em;
+	}
+}
+
 </style>
 
 <nav class="navbar">
@@ -50,3 +66,5 @@
 </nav>
 
 <hr/>
+
+<!-- need to add responsive menu, max width of 900px will need to be hamburger menu -->
