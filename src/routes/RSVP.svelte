@@ -36,6 +36,6 @@
 
 <Weddinginfo/>
 <div class="rsvpform">
-	<iframe src="https://forms.monday.com/forms/embed/0ce992c37e3e542c313b6de73b82c392?r=use1" width="1000" height="800" style="border: 0; box-shadow: 0px rgba(0,0,0,0);" alt="rsvp form"></iframe>
+	<iframe src="https://forms.monday.com/forms/embed/0ce992c37e3e542c313b6de73b82c392?r=use1" title="rsvp" width="1000" height="800" style="border: 0; box-shadow: 0px rgba(0,0,0,0);" alt="rsvp form"></iframe>
 </div>
 
