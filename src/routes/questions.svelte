@@ -27,15 +27,15 @@
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 1.1em;
     }
 
     h3 {
-        font-size: 15px;
+        font-size: 1em;
     }
 
     p {
-        font-size: 14px;
+        font-size: 1em;
     }
 
     .smalldivider {

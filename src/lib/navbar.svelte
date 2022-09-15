@@ -45,7 +45,7 @@
 		text-align: center;
 	}
 	a {
-		font-size: 16px;
+		font-size: 1em;
 		margin-top: .25em;
 	}
 }

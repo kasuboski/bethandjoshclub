@@ -27,12 +27,12 @@
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 1.25em;
         margin: 1em 0em 0.2em 0em;
     }
 
     p {
-        font-size: 16px;
+        font-size: 1em;
     }
 }
 

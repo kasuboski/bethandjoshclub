@@ -1,7 +1,6 @@
 <script>
 	import Navbar from "$lib/navbar.svelte";
 	import Header from "$lib/header.svelte";
-	import Weddinginfo from "$lib/weddinginfo.svelte";
 </script>
 
 <svelte:head>
@@ -28,17 +27,12 @@
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 1.25em;
     }
 
-    h3 {
-        font-size: 16px;
+    h3, p {
+        font-size: 1em;
     }
-
-    p {
-        font-size: 16px;
-    }
-
     .smalldivider {
         margin: 0;
         min-width: 75%;
