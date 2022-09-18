@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-	<title>Accommodations| Beth & Josh</title>
-	<meta name="description" content="Accommodations" />
+	<title>Q&A | Beth & Josh</title>
+	<meta name="description" content="Q&A" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
 
@@ -80,6 +80,16 @@
 	img {
 		max-width: 100%;
 		height: auto;
+		border-radius: 3px;
+		animation: fadeIn ease 1s;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 	h2 {
 		width: 55%;

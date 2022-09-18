@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Accommodations| Beth & Josh</title>
+	<title>Accommodations | Beth & Josh</title>
 	<meta name="description" content="Accommodations" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
@@ -66,19 +66,38 @@
 		width: 50%;
 		text-align: center;
 		margin: 0.5em;
+		animation: fadeIn ease 1s;
 	}
 
 	h3 {
 		width: 50%;
 		margin: 1em 0em 0em 0em;
+		animation: fadeIn ease 1s;
 	}
 
 	.smalldivider {
 		width: 50%;
 		border-top: 1px dotted green;
+		animation: fadeIn ease 2s;
 	}
 
 	p {
 		width: 50%;
+		animation: fadeIn ease 2s;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 3px;
+		animation: fadeIn ease 1.5s;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>

@@ -30,6 +30,11 @@
 		
 	}
 
+	a:hover {
+		opacity: .9;
+		color: #9C3A21;
+	}
+
 	hr {
 		width: 90%;
 		border-top: 2px dotted green;

@@ -1,12 +1,11 @@
 <script>
 	import Navbar from '$lib/navbar.svelte';
 	import Header from '$lib/header.svelte';
-	import Weddinginfo from '$lib/weddinginfo.svelte';
 </script>
 
 <svelte:head>
-	<title>Our Story | Beth & Josh</title>
-	<meta name="description" content="Our Story" />
+	<title>Registry | Beth & Josh</title>
+	<meta name="description" content="Registry" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
 
@@ -14,26 +13,26 @@
 
 <Navbar />
 
-<div class="ourstory">
-	<div style="text-align: center; margin-top: 1%;">
+<div class="registry">
+	<!-- <div style="text-align: center; margin-top: 1%; ">
 		<img src="/images/waterreflection.jpg" alt="Beth and Josh in Gothic Quarter" />
-	</div>
-	<h2>Our Story</h2>
+	</div> -->
+	<h2>Registry</h2>
 	<hr class="smalldivider" />
 	<p>
-		Beth and Josh Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		<!-- Beth and Josh Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 		incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo nulla facilisi.
 		Ultrices tincidunt arcu non sodales neque sodales ut. Volutpat lacus laoreet non curabitur
 		gravida. Libero id faucibus nisl tincidunt eget nullam non. Id consectetur purus ut faucibus.
 		Quis viverra nibh cras pulvinar mattis. Est lorem ipsum dolor sit amet consectetur adipiscing
-		elit. Odio eu feugiat pretium nibh. Et tortor consequat id porta nibh.
+		elit. Odio eu feugiat pretium nibh. Et tortor consequat id porta nibh. -->
 	</p>
 	<br />
 	<br />
 </div>
 
 <style>
-	.ourstory {
+	.registry {
 		display: flex;
 		flex: 5;
 		align-items: center;
@@ -62,32 +61,19 @@
 	h2 {
 		width: 40%;
 		text-align: center;
-		animation: fadeIn ease 2s;
 	}
 
 	.smalldivider {
 		width: 60%;
 		border-top: 1px dotted green;
-		animation: fadeIn ease 2s;
 	}
 
 	p {
 		width: 60%;
-		animation: fadeIn ease 2s;
 	}
 
-	img {
+	/* img {
 		max-width: 100%;
 		height: auto;
-		border-radius: 3px;
-		animation: fadeIn ease 2s;
-	}
-	@keyframes fadeIn {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
+	} */
 </style>

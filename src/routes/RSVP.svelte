@@ -38,10 +38,21 @@
 		justify-content: center;
 		padding: 0;
 		width: 100%;
+		animation: fadeIn ease 1s;
 	}
 
 	img {
 		max-width: 100%;
 		height: auto;
+		border-radius: 3px;
+		animation: fadeIn ease 1s;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>

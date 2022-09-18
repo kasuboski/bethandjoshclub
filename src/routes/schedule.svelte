@@ -72,24 +72,38 @@
 	h2 {
 		width: 50%;
 		text-align: center;
+		animation: fadeIn ease 1s;
 	}
 
 	h3 {
 		width: 50%;
 		margin: 0 0 0.3em 0;
+		animation: fadeIn ease 1s;
 	}
 
 	.smalldivider {
+		animation: fadeIn ease 1s;
 		width: 50%;
 		border-top: 1px dotted green;
 	}
 
 	p {
 		width: 50%;
+		animation: fadeIn ease 1s;
 	}
 
 	img {
 		max-width: 100%;
 		height: auto;
+		border-radius: 3px;
+		animation: fadeIn ease 1s;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>

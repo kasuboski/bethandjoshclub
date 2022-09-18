@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Beth and Josh Wedding</title>
+	<title>Beth & Josh Wedding</title>
 	<meta name="description" content="Beth and Josh" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
@@ -34,5 +34,15 @@
 	img {
 		max-width: 100%;
 		height: auto;
+		border-radius: 3px;
+		animation: fadeIn ease 1s;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>

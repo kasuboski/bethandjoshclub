@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Photos| Beth & Josh</title>
+	<title>Photos | Beth & Josh</title>
 	<meta name="description" content="Photos" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
@@ -64,6 +64,15 @@
 <style>
 	* {
 		box-sizing: border-box;
+		animation: fadeIn ease 1.5s;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 
 	div {
@@ -94,6 +103,7 @@
 		margin-top: 8px;
 		vertical-align: middle;
 		width: 100%;
+		border-radius: 3px;
 	}
 
 	/* Responsive layout - makes a two column-layout instead of four columns */
