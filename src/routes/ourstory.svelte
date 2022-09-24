@@ -77,4 +77,13 @@
 		max-width: 100%;
 		height: auto;
 	}
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 </style>
