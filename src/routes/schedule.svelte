@@ -34,7 +34,6 @@
 </div>
 
 <style>
-
 	* {
 		animation: fadeIn ease 1.5s;
 	}
