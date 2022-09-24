@@ -34,6 +34,10 @@
 </div>
 
 <style>
+
+	* {
+		animation: fadeIn ease 1.5s;
+	}
 	.ourstory {
 		display: flex;
 		flex: 5;
@@ -91,5 +95,13 @@
 	img {
 		max-width: 100%;
 		height: auto;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>
