@@ -31,6 +31,9 @@
 </div>
 
 <style>
+	* {
+		animation: fadeIn ease 1.5s;
+	}
 	.rsvpform {
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		display: flex;
@@ -43,5 +46,13 @@
 	img {
 		max-width: 100%;
 		height: auto;
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>
