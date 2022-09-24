@@ -60,6 +60,8 @@
 			<p class="time">10:00AM</p>
 			<p class="description">Brunch at the Klassen family household in Elm Grove, WI</p>
 		</div>
+		<br />
+		<br />
 	</div>
 </div>
 
