@@ -1,25 +1,33 @@
+<div class="weddinginfo">
+	<h3>Saturday, August 26, 2023</h3>
+	<p>
+		<strong>The Best Place at the Historic Pabst Brewery</strong>
+	</p>
+	<p>Milwaukee, WI</p>
+</div>
+
 <style>
 	.weddinginfo {
 		display: block;
-        text-align: center;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+		text-align: center;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: 3em;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        animation: fadeIn ease 1.5s;
 	}
-    p {
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-</style>
+	p {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
 
-<div class="weddinginfo">
-	<h3>
-        Saturday, August 26, 2023
-    </h3>
-    <p>
-        <strong>The Best Place at the Historic Pabst Brewery</strong>
-    </p>
-    <p>Milwaukee, WI</p>
-</div>
+    @keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+</style>

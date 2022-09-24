@@ -47,11 +47,13 @@
 		p,
 		.smalldivider {
 			min-width: 75%;
+			animation: fadeIn ease 1.5s;
 		}
 
 		h2 {
 			font-size: 1.25em;
 			margin: 1em 0em 0.2em 0em;
+			animation: fadeIn ease 1.5s;
 		}
 
 		p {
@@ -59,6 +61,11 @@
 		}
 	}
 
+		h2,
+		p,
+		.smalldivider {
+			animation: fadeIn ease 1.5s;
+		}
 	h2 {
 		width: 40%;
 		text-align: center;
@@ -76,5 +83,15 @@
 	img {
 		max-width: 100%;
 		height: auto;
+		animation: fadeIn ease 1.5s;
+	}
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>

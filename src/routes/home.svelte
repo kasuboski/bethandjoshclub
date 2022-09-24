@@ -29,10 +29,21 @@
 		border-top: 2px dotted green;
 		margin-top: 2%;
 		margin-bottom: 3%;
+		animation: fadeIn ease 1.5s;
 	}
 
 	img {
 		max-width: 100%;
 		height: auto;
+		animation: fadeIn ease 1.5s;
+	}
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>

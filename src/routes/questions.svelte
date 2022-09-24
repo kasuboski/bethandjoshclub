@@ -43,6 +43,9 @@
 </div>
 
 <style>
+	* {
+		animation: fadeIn ease 1.5s;
+	}
 	.mainstuff {
 		display: flex;
 		flex: 5;
@@ -101,5 +104,14 @@
 	p {
 		width: 55%;
 		text-align: left;
+	}
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 </style>

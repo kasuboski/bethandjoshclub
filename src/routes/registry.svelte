@@ -14,30 +14,22 @@
 
 <Navbar />
 
-<div class="ourstory">
-	<div style="margin-top: 1%;">
-		<img src="/images/cathedralflying.jpg" alt="Beth and Josh in Gothic Quarter" />
+<div class="registry">
+	<div style="text-align: center; margin-top: 1%; ">
+		<img src="/images/gothicsnooty.jpg" alt="Beth and Josh being snooty" />
 	</div>
-	<h2>Wedding Schedule</h2>
-	<br />
-	<h3>Friday, August 25</h3>
+	<h2>Registry</h2>
 	<hr class="smalldivider" />
-	<p>6:30PM Rehearsal Dinner</p>
+	<p>More info</p>
 	<br />
-	<h3>Saturday, August 26</h3>
-	<hr class="smalldivider" />
-	<p>4:00PM Ceremony</p>
 	<br />
-	<h3>Sunday, August 27</h3>
-	<hr class="smalldivider" />
-	<p>10:00AM Brunch</p>
 </div>
 
 <style>
 	* {
 		animation: fadeIn ease 1.5s;
 	}
-	.ourstory {
+	.registry {
 		display: flex;
 		flex: 5;
 		align-items: center;
@@ -45,56 +37,43 @@
 		flex-direction: column;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
+
 	@media screen and (max-width: 900px) {
 		h2,
-		h3,
-		p {
+		p,
+		.smalldivider {
 			min-width: 75%;
-			text-align: center;
 		}
 
 		h2 {
 			font-size: 1.25em;
-		}
-
-		h3 {
-			font-size: 1.1em;
-			text-align: center;
+			margin: 1em 0em 0.2em 0em;
 		}
 
 		p {
 			font-size: 1em;
 		}
-
-		.smalldivider {
-			margin: 0;
-			min-width: 60%;
-		}
 	}
 
 	h2 {
-		width: 50%;
+		width: 40%;
 		text-align: center;
 	}
 
-	h3 {
-		width: 50%;
-		margin: 0 0 0.3em 0;
-	}
-
 	.smalldivider {
-		width: 50%;
+		width: 60%;
 		border-top: 1px dotted green;
 	}
 
 	p {
-		width: 50%;
+		width: 60%;
 	}
 
 	img {
 		max-width: 100%;
 		height: auto;
 	}
+
 	@keyframes fadeIn {
 		0% {
 			opacity: 0;

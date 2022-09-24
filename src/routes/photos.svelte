@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Photos| Beth & Josh</title>
+	<title>Photos | Beth & Josh</title>
 	<meta name="description" content="Photos" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
@@ -64,6 +64,7 @@
 <style>
 	* {
 		box-sizing: border-box;
+		animation: fadeIn ease 1.5s;
 	}
 
 	div {
@@ -113,6 +114,13 @@
 			max-width: 100%;
 		}
 	}
-
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 	/* Was trying out this suggestion: https://stackoverflow.com/questions/39858998/zoom-in-and-out-on-mouse-click-with-css */
 </style>
