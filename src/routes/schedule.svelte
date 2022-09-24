@@ -1,12 +1,11 @@
 <script>
 	import Navbar from '$lib/navbar.svelte';
 	import Header from '$lib/header.svelte';
-	import Weddinginfo from '$lib/weddinginfo.svelte';
 </script>
 
 <svelte:head>
-	<title>Our Story | Beth & Josh</title>
-	<meta name="description" content="Our Story" />
+	<title>Schedule | Beth & Josh</title>
+	<meta name="description" content="Schedule" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
 
@@ -14,41 +13,109 @@
 
 <Navbar />
 
-<div class="ourstory">
+<div class="schedule">
 	<div style="margin-top: 1%;">
 		<img src="/images/cathedralflying.jpg" alt="Beth and Josh in Gothic Quarter" />
 	</div>
-	<h2>Wedding Schedule</h2>
-	<br />
-	<h3>Friday, August 25</h3>
-	<hr class="smalldivider" />
-	<p>6:30PM Rehearsal Dinner</p>
-	<br />
-	<h3>Saturday, August 26</h3>
-	<hr class="smalldivider" />
-	<p>4:00PM Ceremony</p>
-	<br />
-	<h3>Sunday, August 27</h3>
-	<hr class="smalldivider" />
-	<p>10:00AM Brunch</p>
+	<div class="content">
+		<h2>Wedding Schedule</h2>
+		<br />
+		<h3>Friday, August 25</h3>
+		<hr class="smalldivider" />
+		<div class="activities">
+			<p class="time">6:30PM</p>
+			<p class="description">Rehearsal Dinner at City Lights Brewery</p>
+		</div>
+		<div class="activities">
+			<p class="time">5:30PM</p>
+			<p class="description">Rehearsal at the Best Place at the Historic Pabst Brewery</p>
+		</div>
+		<br />
+		<h3>Saturday, August 26</h3>
+		<hr class="smalldivider" />
+		<div class="activities">
+			<p class="time">2:00PM</p>
+			<p class="description">Wedding party photos</p>
+		</div>
+		<div class="activities">
+			<p class="time">4:00PM</p>
+			<p class="description">Ceremony at the Best Place at the Historic Pabst Brewery</p>
+		</div>
+		<div class="activities">
+			<p class="time">4:30 to 5:30PM</p>
+			<p class="description">Photos and cocktail hour</p>
+		</div>
+		<div class="activities">
+			<p class="time">5:30 to 11:00PM</p>
+			<p class="description">Dinner and Reception</p>
+		</div>
+		<div class="activities">
+			<p class="time">11:00PM to 2:00AM</p>
+			<p class="description">After party at On Tap</p>
+		</div>
+		<br />
+		<h3>Sunday, August 27</h3>
+		<hr class="smalldivider" />
+		<div class="activities">
+			<p class="time">10:00AM</p>
+			<p class="description">Brunch at the Klassen family household in Elm Grove, WI</p>
+		</div>
+	</div>
 </div>
 
 <style>
 	* {
 		animation: fadeIn ease 1.5s;
 	}
-	.ourstory {
-		display: flex;
-		flex: 5;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
+	.schedule {
+		display: block;
+		text-align: center;
+		margin: auto;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		width: 100%;
+	}
+
+	.content {
+		width: 50%;
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+
+	.activities {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		text-align: left;
+		margin-bottom: 1em;
+	}
+
+	.description {
+		flex: 4;
+		margin-left: 5em;
+	}
+	.time {
+		flex: 1;
+		margin-left: 2em;
 	}
 	@media screen and (max-width: 900px) {
+		.content {
+			width: 70%;
+		}
+		.activities,
+		.time,
+		.description {
+			flex-direction: column;
+			margin-left: 0;
+			text-align: left;
+		}
+
+		.description {
+			margin-top: 0em;
+			margin-bottom: 1em;
+		}
 		h2,
-		h3,
-		p {
+		h3 {
 			min-width: 75%;
 			text-align: center;
 		}
@@ -64,37 +131,32 @@
 
 		p {
 			font-size: 1em;
+			min-width: 75%;
+			text-align: left;
 		}
 
 		.smalldivider {
-			margin: 0;
+			margin-bottom: 0.75em;
 			min-width: 60%;
 		}
 	}
 
 	h2 {
-		width: 50%;
 		text-align: center;
 	}
 
 	h3 {
-		width: 50%;
 		margin: 0 0 0.3em 0;
 	}
 
 	.smalldivider {
-		width: 50%;
 		border-top: 1px dotted green;
 	}
-
-	p {
-		width: 50%;
-	}
-
 	img {
 		max-width: 100%;
 		height: auto;
 	}
+
 	@keyframes fadeIn {
 		0% {
 			opacity: 0;
