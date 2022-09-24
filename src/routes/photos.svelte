@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Photos| Beth & Josh</title>
+	<title>Photos | Beth & Josh</title>
 	<meta name="description" content="Photos" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
