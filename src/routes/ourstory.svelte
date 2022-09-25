@@ -49,6 +49,7 @@
 			In 2022, after 6 years together, Josh proposed in the courtyard near their apartment. Beth, of
 			course, said yes, and the couple is excited to celebrate their love and commitment with you.
 		</p>
+		<img src="/images/ringhands.jpg" style="margin: 2em" alt="Beth and Josh in Gothic Quarter" />
 	</div>
 	<br />
 	<br />
