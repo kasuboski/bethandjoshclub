@@ -38,7 +38,6 @@
 		<img src="/images/collage.jpeg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/stairsdescending.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/selfieKayaking.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicsuperhero.jpeg" style="width:100%" alt="Beth and Josh pic" />
 	</div>
 	<div class="column">
 		<img src="/images/bridgepose.jpg" style="width:100%" alt="Beth and Josh pic" />
@@ -57,6 +56,7 @@
 		<img src="/images/selfieGermany.jpeg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothicnosey.jpeg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/selfieAustin.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/gothicsuperhero.jpeg" style="width:100%" alt="Beth and Josh pic" />
 	</div>
 	<div class="column">
 		<img src="/images/bornpose.jpg" style="width:100%" alt="Beth and Josh pic" />
