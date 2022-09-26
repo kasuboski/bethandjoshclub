@@ -23,10 +23,10 @@
 		<p>
 			Beth and Josh's story starts when the two found themselves at several of the same college
 			outings while attending UW-Madison. Beth, working as a student caterer, had befriended Josh's
-			catering roommates and had no idea that through her new friends, she would meet the boy of her
-			dreams. Josh, a shy computer engineering student with a less shy sense of humor, charmed Beth
-			with his witty and dry remarks. He was truly smitten by her sense of humor, and the two began
-			dating their senior year of college.
+			roommates and had no idea that through her new friends, she would meet the man of her dreams.
+			Josh, a shy computer engineering student with a knack for making hilariously insightful
+			comments, charmed Beth with his witty and dry remarks. He was truly smitten by her sense of
+			humor, and the two began dating their senior year of college.
 		</p>
 		<p>
 			After graduation, they embarked on a long-distance journey, as Josh had accepted a job in
@@ -89,6 +89,13 @@
 
 		p {
 			font-size: 1em;
+			width: 100%;
+		}
+	}
+
+	@media screen and (min-width: 900px) {
+		p {
+			width: 60%;
 		}
 	}
 
@@ -105,10 +112,6 @@
 	.smalldivider {
 		width: 60%;
 		border-top: 1px dotted green;
-	}
-
-	p {
-		width: 60%;
 	}
 
 	img {
