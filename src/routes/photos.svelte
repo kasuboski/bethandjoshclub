@@ -19,6 +19,9 @@
 
 <div class="row">
 	<div class="column">
+		<img src="/images/gothicdance.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/yellowpose.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/borncorridorpose.jpeg" style="width:100%" alt="bridge pic" />
 		<img src="/images/bridgeface.jpg" style="width:100%" alt="bridge pic" />
 		<img src="/images/selfieWembley.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/cathedralflying.jpg" style="width:100%" alt="cathedral pic" />
@@ -30,9 +33,12 @@
 		<img src="/images/backtoback.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/selfieMontserrat.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/sittingchatting.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/yellowpose.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/standingmadrid.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothicspin.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/collage.jpeg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/stairsdescending.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/selfieKayaking.jpeg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/gothicsuperhero.jpeg" style="width:100%" alt="Beth and Josh pic" />
 	</div>
 	<div class="column">
 		<img src="/images/bridgepose.jpg" style="width:100%" alt="Beth and Josh pic" />
@@ -42,22 +48,31 @@
 		<img src="/images/ringhands.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/selfieCool.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/facetoface.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/selfieScotland.jpeg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/fountainsillyjosh.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothiccorridor.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/kneeling.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/selfieWurstfest.jpeg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/stairsSitting.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/selfieGermany.jpeg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/gothicnosey.jpeg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/selfieAustin.jpg" style="width:100%" alt="Beth and Josh pic" />
 	</div>
 	<div class="column">
 		<img src="/images/bornpose.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothicdip.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/retiropark.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/selfieBW.jpeg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothicdoor.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothicpointing.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/paella.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/gothicpromphoto.jpeg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/waterreflection.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothicstroll.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/hangingout.jpg" style="width:100%" alt="Beth and Josh pic" />
 		<img src="/images/gothicsnooty.jpg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/selfieCheers.jpeg" style="width:100%" alt="Beth and Josh pic" />
+		<img src="/images/gothicjoshpointing.jpeg" style="width:100%" alt="Beth and Josh pic" />
 	</div>
 </div>
 
