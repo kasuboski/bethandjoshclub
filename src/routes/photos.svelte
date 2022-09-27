@@ -3,6 +3,7 @@
 	import Navbar from '$lib/navbar.svelte';
 	import Header from '$lib/header.svelte';
 	import Weddinginfo from '$lib/weddinginfo.svelte';
+	import { Lightbox } from 'svelte-lightbox';
 </script>
 
 <svelte:head>
