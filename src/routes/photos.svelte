@@ -93,6 +93,15 @@
 		<GalleryImage>
 			<img src="/images/borncorridorpose.jpeg" style="width:100%" alt="bridge pic" />
 		</GalleryImage>
+		<GalleryImage>
+			<img src="/images/bridgeface.jpg" style="width:100%" alt="bridge pic" />
+		</GalleryImage>
+		<GalleryImage>
+			<img src="/images/selfieWembley.jpg" style="width:100%" alt="Beth and Josh pic" />
+		</GalleryImage>
+		<GalleryImage>
+			<img src="/images/cathedralflying.jpg" style="width:100%" alt="cathedral pic" />
+		</GalleryImage>
 	</LightboxGallery>
 </div>
 <!-- <div class="row">
