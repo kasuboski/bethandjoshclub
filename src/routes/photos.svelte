@@ -2,7 +2,62 @@
 <script>
 	import Navbar from '$lib/navbar.svelte';
 	import Header from '$lib/header.svelte';
-	import Weddinginfo from '$lib/weddinginfo.svelte';
+	import { LightboxGallery, GalleryImage, GalleryThumbnail } from 'svelte-lightbox';
+
+	const images_col1 = [
+		'gothicdance.jpg',
+		'yellowpose.jpg',
+		'borncorridorpose.jpeg',
+		'bridgeface.jpg',
+		'selfieWembley.jpg',
+		'cathedralflying.jpg',
+		'standingScotland.JPG',
+		'backtoback.jpg',
+		'selfieMontserrat.jpg',
+		'sittingchatting.jpg',
+		'standingmadrid.jpg',
+		'gothicspin.jpg',
+		'collage.jpeg',
+		'stairsdescending.jpg',
+		'selfieKayaking.jpeg'
+	];
+
+	const images_col2 = [
+		'bridgepose.jpg',
+		'selfieStowe.jpg',
+		'cathedralpose.jpg',
+		'selfieMadrid.jpg',
+		'ringhands.jpg',
+		'selfieCool.jpg',
+		'facetoface.jpg',
+		'selfieScotland.jpeg',
+		'fountainsillyjosh.jpg',
+		'gothiccorridor.jpg',
+		'kneeling.jpg',
+		'selfieWurstfest.jpeg',
+		'stairsSitting.jpg',
+		'selfieGermany.jpeg',
+		'gothicnosey.jpeg',
+		'selfieAustin.jpg',
+		'gothicsuperhero.jpeg'
+	];
+
+	const images_col3 = [
+		'bornpose.jpg',
+		'gothicdip.jpg',
+		'retiropark.jpg',
+		'selfieBW.jpeg',
+		'gothicdoor.jpg',
+		'gothicpointing.jpg',
+		'paella.jpg',
+		'gothicpromphoto.jpeg',
+		'waterreflection.jpg',
+		'gothicstroll.jpg',
+		'hangingout.jpg',
+		'gothicsnooty.jpg',
+		'selfieCheers.jpeg',
+		'gothicjoshpointing.jpeg'
+	];
 </script>
 
 <svelte:head>
@@ -16,64 +71,47 @@
 <Navbar />
 
 <!-- Photo Grid -->
-
 <div class="row">
-	<div class="column">
-		<img src="/images/gothicdance.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/yellowpose.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/borncorridorpose.jpeg" style="width:100%" alt="bridge pic" />
-		<img src="/images/bridgeface.jpg" style="width:100%" alt="bridge pic" />
-		<img src="/images/selfieWembley.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/cathedralflying.jpg" style="width:100%" alt="cathedral pic" />
-		<img
-			src="/images/standingScotland.JPG"
-			style="width:100%"
-			alt="Scotland pic pose Beth and Josh"
-		/>
-		<img src="/images/backtoback.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieMontserrat.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/sittingchatting.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/standingmadrid.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicspin.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/collage.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/stairsdescending.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieKayaking.jpeg" style="width:100%" alt="Beth and Josh pic" />
-	</div>
-	<div class="column">
-		<img src="/images/bridgepose.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieStowe.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/cathedralpose.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieMadrid.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/ringhands.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieCool.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/facetoface.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieScotland.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/fountainsillyjosh.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothiccorridor.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/kneeling.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieWurstfest.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/stairsSitting.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieGermany.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicnosey.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieAustin.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicsuperhero.jpeg" style="width:100%" alt="Beth and Josh pic" />
-	</div>
-	<div class="column">
-		<img src="/images/bornpose.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicdip.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/retiropark.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieBW.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicdoor.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicpointing.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/paella.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicpromphoto.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/waterreflection.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicstroll.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/hangingout.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicsnooty.jpg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/selfieCheers.jpeg" style="width:100%" alt="Beth and Josh pic" />
-		<img src="/images/gothicjoshpointing.jpeg" style="width:100%" alt="Beth and Josh pic" />
-	</div>
+	<LightboxGallery>
+		<svelte:fragment slot="thumbnail">
+			<div class="column">
+				{#each images_col1 as image, i}
+					<GalleryThumbnail id={i}>
+						<img src="/images/{image}" style="width:100%" alt="Beth and Josh" />
+					</GalleryThumbnail>
+				{/each}
+			</div>
+			<div class="column">
+				{#each images_col2 as image, i}
+					<GalleryThumbnail id={images_col1.length + i}>
+						<img src="/images/{image}" style="width:100%" alt="Beth and Josh" />
+					</GalleryThumbnail>
+				{/each}
+			</div>
+			<div class="column">
+				{#each images_col3 as image, i}
+					<GalleryThumbnail id={images_col1.length + images_col2.length + i}>
+						<img src="/images/{image}" style="width:100%" alt="Beth and Josh" />
+					</GalleryThumbnail>
+				{/each}
+			</div>
+		</svelte:fragment>
+		{#each images_col1 as image, i}
+			<GalleryImage>
+				<img src="/images/{image}" style="width:100%" alt="Beth and Josh" />
+			</GalleryImage>
+		{/each}
+		{#each images_col2 as image, i}
+			<GalleryImage>
+				<img src="/images/{image}" style="width:100%" alt="Beth and Josh" />
+			</GalleryImage>
+		{/each}
+		{#each images_col3 as image, i}
+			<GalleryImage>
+				<img src="/images/{image}" style="width:100%" alt="Beth and Josh" />
+			</GalleryImage>
+		{/each}
+	</LightboxGallery>
 </div>
 
 <style>
@@ -81,14 +119,6 @@
 		box-sizing: border-box;
 		animation: fadeIn ease 1.5s;
 	}
-
-	div {
-		margin: 0;
-	}
-	/* .header {
-        text-align: center;
-        padding: 32px;
-    }  */
 
 	.row {
 		display: -ms-flexbox; /* IE10 */
@@ -137,5 +167,4 @@
 			opacity: 1;
 		}
 	}
-	/* Was trying out this suggestion: https://stackoverflow.com/questions/39858998/zoom-in-and-out-on-mouse-click-with-css */
 </style>
