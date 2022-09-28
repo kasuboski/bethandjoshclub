@@ -23,12 +23,12 @@
 		<h3>Friday, August 25</h3>
 		<hr class="smalldivider" />
 		<div class="activities">
-			<p class="time">6:30PM</p>
-			<p class="description">Rehearsal Dinner at City Lights Brewery</p>
-		</div>
-		<div class="activities">
 			<p class="time">5:30PM</p>
 			<p class="description">Rehearsal at the Best Place at the Historic Pabst Brewery</p>
+		</div>
+		<div class="activities">
+			<p class="time">6:30PM</p>
+			<p class="description">Rehearsal Dinner at City Lights Brewery</p>
 		</div>
 		<br />
 		<h3>Saturday, August 26</h3>
