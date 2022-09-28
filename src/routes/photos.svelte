@@ -5,59 +5,59 @@
 	import { LightboxGallery, GalleryImage, GalleryThumbnail } from 'svelte-lightbox';
 
 	const images_col1 = [
-		"gothicdance.jpg",
-		"yellowpose.jpg",
-		"borncorridorpose.jpeg",
-		"bridgeface.jpg",
-		"selfieWembley.jpg",
-		"cathedralflying.jpg",
-		"standingScotland.JPG",
-		"backtoback.jpg",
-		"selfieMontserrat.jpg",
-		"sittingchatting.jpg",
-		"standingmadrid.jpg",
-		"gothicspin.jpg",
-		"collage.jpeg",
-		"stairsdescending.jpg",
-		"selfieKayaking.jpeg",
+		'gothicdance.jpg',
+		'yellowpose.jpg',
+		'borncorridorpose.jpeg',
+		'bridgeface.jpg',
+		'selfieWembley.jpg',
+		'cathedralflying.jpg',
+		'standingScotland.JPG',
+		'backtoback.jpg',
+		'selfieMontserrat.jpg',
+		'sittingchatting.jpg',
+		'standingmadrid.jpg',
+		'gothicspin.jpg',
+		'collage.jpeg',
+		'stairsdescending.jpg',
+		'selfieKayaking.jpeg'
 	];
 
 	const images_col2 = [
-		"bridgepose.jpg",
-		"selfieStowe.jpg",
-		"cathedralpose.jpg",
-		"selfieMadrid.jpg",
-		"ringhands.jpg",
-		"selfieCool.jpg",
-		"facetoface.jpg",
-		"selfieScotland.jpeg",
-		"fountainsillyjosh.jpg",
-		"gothiccorridor.jpg",
-		"kneeling.jpg",
-		"selfieWurstfest.jpeg",
-		"stairsSitting.jpg",
-		"selfieGermany.jpeg",
-		"gothicnosey.jpeg",
-		"selfieAustin.jpg",
-		"gothicsuperhero.jpeg",
+		'bridgepose.jpg',
+		'selfieStowe.jpg',
+		'cathedralpose.jpg',
+		'selfieMadrid.jpg',
+		'ringhands.jpg',
+		'selfieCool.jpg',
+		'facetoface.jpg',
+		'selfieScotland.jpeg',
+		'fountainsillyjosh.jpg',
+		'gothiccorridor.jpg',
+		'kneeling.jpg',
+		'selfieWurstfest.jpeg',
+		'stairsSitting.jpg',
+		'selfieGermany.jpeg',
+		'gothicnosey.jpeg',
+		'selfieAustin.jpg',
+		'gothicsuperhero.jpeg'
 	];
 
 	const images_col3 = [
-		"bornpose.jpg",
-		"gothicdip.jpg",
-		"retiropark.jpg",
-		"selfieBW.jpeg",
-		"gothicdoor.jpg",
-		"gothicpointing.jpg",
-		"paella.jpg",
-		"gothicpromphoto.jpeg",
-		"waterreflection.jpg",
-		"gothicstroll.jpg",
-		"hangingout.jpg",
-		"gothicsnooty.jpg",
-		"selfieCheers.jpeg",
-		"gothicjoshpointing.jpeg",
-	]
+		'bornpose.jpg',
+		'gothicdip.jpg',
+		'retiropark.jpg',
+		'selfieBW.jpeg',
+		'gothicdoor.jpg',
+		'gothicpointing.jpg',
+		'paella.jpg',
+		'gothicpromphoto.jpeg',
+		'waterreflection.jpg',
+		'gothicstroll.jpg',
+		'hangingout.jpg',
+		'gothicsnooty.jpg',
+		'selfieCheers.jpeg',
+		'gothicjoshpointing.jpeg'
+	];
 </script>
 
 <svelte:head>
@@ -90,7 +90,7 @@
 			</div>
 			<div class="column">
 				{#each images_col3 as image, i}
-					<GalleryThumbnail id={images_col3.length + images_col2.length + i}>
+					<GalleryThumbnail id={images_col1.length + images_col2.length + i}>
 						<img src="/images/{image}" style="width:100%" alt="Beth and Josh" />
 					</GalleryThumbnail>
 				{/each}
@@ -167,5 +167,4 @@
 			opacity: 1;
 		}
 	}
-	/* Was trying out this suggestion: https://stackoverflow.com/questions/39858998/zoom-in-and-out-on-mouse-click-with-css */
 </style>
