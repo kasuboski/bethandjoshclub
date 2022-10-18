@@ -1,7 +1,6 @@
 <script>
 	import Navbar from '$lib/navbar.svelte';
 	import Header from '$lib/header.svelte';
-	import Weddinginfo from '$lib/weddinginfo.svelte';
 </script>
 
 <svelte:head>
@@ -15,8 +14,8 @@
 <Navbar />
 
 <div class="mainstuff">
-	<div style="text-align: center; margin-top: 1%;">
-		<img src="/images/bridgeface.jpg" alt="Beth and Josh by a bridge" />
+	<div style="text-align: center;">
+		<img src="/images/bridgefacecrop.jpeg" alt="Beth and Josh by a bridge" />
 	</div>
 	<br />
 	<br />
