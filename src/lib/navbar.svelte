@@ -8,9 +8,7 @@
 		<a href="/rsvp" class:active={$page.url.pathname.includes('/rsvp')}>RSVP</a>
 		<a href="/ourstory" class:active={$page.url.pathname.includes('/ourstory')}>Our Story</a>
 		<a href="/schedule" class:active={$page.url.pathname.includes('/schedule')}>Schedule</a>
-		<a href="/accommodations" class:active={$page.url.pathname.includes('/accommodations')}
-			>Accommodations</a
-		>
+		<a href="/travel" class:active={$page.url.pathname.includes('/travel')}>Travel</a>
 		<a href="/questions" class:active={$page.url.pathname.includes('/questions')}>Q&A</a>
 		<a href="/photos" class:active={$page.url.pathname.includes('/photos')}>Photos</a>
 		<a href="/registry" class:active={$page.url.pathname.includes('/registry')}>Registry</a>
