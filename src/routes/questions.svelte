@@ -31,7 +31,10 @@
 	<h3>What should I wear to the wedding?</h3>
 	<p>This is a once in a lifetime event for us, so we'd love for you to dress up!</p>
 	<h3>What colors are the wedding party wearing?</h3>
-	<p>The bridal party will be wearing burnt orange attire.</p>
+	<p>
+		The bridal party will be wearing burnt orange attire, and the wedding colors are shades of olive
+		green.
+	</p>
 	<h3>Is there parking?</h3>
 	<p>
 		We encourage you to take a cab or walk if you are staying nearby, otherwise there is parking at
