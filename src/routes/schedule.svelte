@@ -38,15 +38,15 @@
 			<p class="description">Wedding party photos</p>
 		</div>
 		<div class="activities">
-			<p class="time">4:00PM</p>
+			<p class="time">4:30PM</p>
 			<p class="description">Ceremony at the Best Place at the Historic Pabst Brewery</p>
 		</div>
 		<div class="activities">
-			<p class="time">4:30 to 5:30PM</p>
+			<p class="time">5:00 to 6:30PM</p>
 			<p class="description">Photos and cocktail hour</p>
 		</div>
 		<div class="activities">
-			<p class="time">5:30 to 11:00PM</p>
+			<p class="time">6:30 to 11:00PM</p>
 			<p class="description">Dinner and Reception</p>
 		</div>
 		<div class="activities">
