@@ -24,9 +24,9 @@
 			Beth and Josh's story starts when the two found themselves at several of the same college
 			outings while attending UW-Madison. Beth, working as a student caterer, had befriended Josh's
 			roommates and had no idea that through her new friends, she would meet the man of her dreams.
-			Josh, a shy computer engineering student known for his off-the-cuff one-liners, charmed Beth
-			with his witty and dry remarks. Josh was truly smitten by Beth's sense of humor, and the two
-			began dating their senior year of college.
+			Josh, a shy computer engineering student known for his observant zingers, charmed Beth with
+			his witty and dry remarks. Josh was truly smitten by Beth's sense of humor, and the two began
+			dating their senior year of college.
 		</p>
 		<p>
 			After graduation, they embarked on a long-distance journey, as Josh had accepted a job in
@@ -47,8 +47,7 @@
 		</p>
 		<p>
 			In 2022, after 6 years together, Josh proposed in the courtyard near their apartment. Beth, of
-			course, said yes, and the couple is excited to celebrate their love and commitment to each
-			other with you.
+			course, said yes, and the couple is excited to celebrate their next journey with you.
 		</p>
 		<img src="/images/ringhands.jpg" style="margin: 2em" alt="Beth and Josh in Gothic Quarter" />
 	</div>
