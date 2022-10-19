@@ -61,15 +61,16 @@
 		</li>
 		<li>
 			<a href="https://www.mitchellparkdomes.com/" target="_blank">Mitchell Park Domes</a> - the domes!
-			Basically a giant terrarium-meets-greenhouse with plantlife and conditions of different biomes.
-			Highly reccommend.
+			Basically 3 giant terrarium-meets-greenhouse buildings with the plantlife and conditions of different
+			biomes. Highly reccommend.
 		</li>
 		<li>
 			<a href="https://milwaukeezoo.org/" target="_blank">Milwaukee County Zoo</a> - great for kids!
 		</li>
 		<li>
-			Walk around Bradford Beach if it's not too cold, book some brewery tours at the local
-			breweries (yes, you can even do a Pabst brewery tour at our venue), or
+			Walk around Bradford Beach if it's sunny and warm, book some brewery tours at the local
+			breweries (yes, you can even do a Pabst brewery tour at our venue), or walk around the
+			Riverwalk District
 		</li>
 	</ul>
 	<br />
