@@ -35,7 +35,7 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 
 	@media screen and (max-width: 900px) {

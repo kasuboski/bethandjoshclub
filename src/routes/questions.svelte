@@ -15,7 +15,7 @@
 
 <div class="mainstuff">
 	<div style="text-align: center;">
-		<img src="/images/bridgefacecrop.jpeg" alt="Beth and Josh by a bridge" />
+		<img src="/images/bridgeface.jpg" alt="Beth and Josh by a bridge" />
 	</div>
 	<br />
 	<br />
@@ -61,7 +61,7 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 
 	@media screen and (max-width: 900px) {

@@ -35,7 +35,7 @@
 		animation: fadeIn ease 1.5s;
 	}
 	.rsvpform {
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		display: flex;
 		flex: 5;
 		justify-content: center;

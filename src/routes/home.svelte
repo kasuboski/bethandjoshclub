@@ -24,6 +24,9 @@
 <br />
 
 <style>
+	* {
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
 	hr {
 		width: 90%;
 		border-top: 2px dotted green;

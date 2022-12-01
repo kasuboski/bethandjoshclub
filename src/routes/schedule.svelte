@@ -73,7 +73,7 @@
 		display: block;
 		text-align: center;
 		margin: auto;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		width: 100%;
 	}
 

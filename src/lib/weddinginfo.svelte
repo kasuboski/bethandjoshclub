@@ -1,8 +1,6 @@
 <div class="weddinginfo">
-	<h3>Saturday, August 26, 2023</h3>
-	<p>
-		<strong>The Best Place at the Historic Pabst Brewery</strong>
-	</p>
+	<h3>The Best Place at the Historic Pabst Brewery</h3>
+	<p>Saturday, August 23, 2026</p>
 	<p>Milwaukee, WI</p>
 </div>
 
@@ -14,15 +12,20 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 3em;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        animation: fadeIn ease 1.5s;
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		animation: fadeIn ease 1.5s;
+	}
+
+	h3 {
+		font-family: Merriweather;
+		font-size: 1.5em;
 	}
 	p {
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
 
-    @keyframes fadeIn {
+	@keyframes fadeIn {
 		0% {
 			opacity: 0;
 		}

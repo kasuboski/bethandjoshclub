@@ -83,7 +83,7 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 
 	@media screen and (max-width: 900px) {
@@ -92,7 +92,7 @@
 		p,
 		ul {
 			min-width: 80%;
-			text-align: center;
+			text-align: left;
 			animation: fadeIn ease 1.5s;
 		}
 

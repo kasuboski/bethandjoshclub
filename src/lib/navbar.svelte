@@ -24,7 +24,7 @@
 		flex: 1;
 		justify-content: center;
 		width: 100%;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 	.active {
 		color: rgb(30, 106, 40);
