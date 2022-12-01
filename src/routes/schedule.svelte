@@ -115,14 +115,10 @@
 			margin-top: 0em;
 			margin-bottom: 1em;
 		}
-		h2,
+
 		h3 {
 			min-width: 75%;
 			text-align: center;
-		}
-
-		h2 {
-			font-size: 1.25em;
 		}
 
 		h3 {
@@ -141,11 +137,6 @@
 			min-width: 60%;
 		}
 	}
-
-	h2 {
-		text-align: center;
-	}
-
 	h3 {
 		margin: 0 0 0.3em 0;
 	}
