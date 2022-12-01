@@ -14,11 +14,10 @@
 <Navbar />
 
 <div class="schedule">
-	<div style="margin-top: 1%;">
+	<div style="margin: 1em;">
 		<img src="/images/cathedralflying.jpg" alt="Beth and Josh in Gothic Quarter" />
 	</div>
 	<div class="content">
-		<h2>Wedding Schedule</h2>
 		<br />
 		<h3>Friday, August 25</h3>
 		<hr class="smalldivider" />

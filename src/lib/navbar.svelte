@@ -15,7 +15,7 @@
 	</ul>
 </nav>
 
-<hr />
+<!-- <hr /> -->
 
 <!-- need to add responsive menu, max width of 900px will need to be hamburger menu -->
 <style>
@@ -25,6 +25,7 @@
 		justify-content: center;
 		width: 100%;
 		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		margin-bottom: 1.5em;
 	}
 	.active {
 		color: rgb(30, 106, 40);
@@ -43,12 +44,12 @@
 		margin: 0em 0.25em;
 	}
 
-	hr {
+	/* hr {
 		width: 90%;
 		border-top: 2px dotted green;
 		margin-top: 2%;
 		margin-bottom: 3%;
-	}
+	} */
 
 	@media screen and (max-width: 900px) {
 		ul {
