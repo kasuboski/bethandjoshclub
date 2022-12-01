@@ -23,8 +23,8 @@
 		<p>
 			Beth and Josh's story starts when the two found themselves at several of the same college
 			outings while attending UW-Madison. Beth, working as a student caterer, had befriended Josh's
-			roommates and had no idea that through her new friends, she would meet the man of her dreams.
-			Josh, a shy computer engineering student known for his observant zingers, charmed Beth with
+			roommates without knowing that through her new friends, she would meet the man of her dreams.
+			Josh, a shy computer engineering student known for his observational zingers, charmed Beth with
 			his witty and dry remarks. Josh was truly smitten by Beth's sense of humor, and the two began
 			dating their senior year of college.
 		</p>
@@ -37,7 +37,7 @@
 		<p>
 			Having had their fair share of missed connections and lonely nights, they decided to be
 			together in Madison. Josh was lucky to find a remote job (before it was cool!) so he could
-			move to Madison in 2018. The two lived happily ever after...
+			move back to Madison in 2018. The two lived happily ever after...
 		</p>
 		<p>
 			But wait! After a year together in Madison, it was time for them to experience a different
@@ -46,7 +46,7 @@
 			since, enjoying the breakfast tacos, live music, and breweries.
 		</p>
 		<p>
-			In 2022, after 6 years together, Josh proposed in the courtyard near their apartment. Beth, of
+			In 2022, after 6 years together, Josh proposed to Beth after a fancy dinner. Beth, of
 			course, said yes, and the couple is excited to celebrate their next journey with you.
 		</p>
 		<img src="/images/ringhands.jpg" style="margin: 2em" alt="Beth and Josh in Gothic Quarter" />
