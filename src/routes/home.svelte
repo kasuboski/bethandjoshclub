@@ -18,7 +18,7 @@
 	<img src="/images/stairsSitting.jpg" alt="Beth and Josh sitting" />
 </div>
 
-<hr />
+<!-- <hr /> -->
 <Weddinginfo />
 <br />
 <br />
@@ -27,13 +27,13 @@
 	* {
 		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
-	hr {
+	/* hr {
 		width: 90%;
 		border-top: 2px dotted green;
 		margin-top: 2%;
 		margin-bottom: 3%;
 		animation: fadeIn ease 1.5s;
-	}
+	} */
 
 	img {
 		max-width: 100%;
