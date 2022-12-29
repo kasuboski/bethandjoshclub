@@ -5,7 +5,7 @@
 <nav class="navbar">
 	<ul>
 		<a href="/home" class:active={$page.url.pathname.includes('/home')}>Home</a>
-		<a href="/rsvp" class:active={$page.url.pathname.includes('/rsvp')}>RSVP</a>
+		<a href="/RSVP" class:active={$page.url.pathname.includes('/RSVP')}>RSVP</a>
 		<a href="/ourstory" class:active={$page.url.pathname.includes('/ourstory')}>Our Story</a>
 		<a href="/schedule" class:active={$page.url.pathname.includes('/schedule')}>Schedule</a>
 		<a href="/travel" class:active={$page.url.pathname.includes('/travel')}>Travel</a>
