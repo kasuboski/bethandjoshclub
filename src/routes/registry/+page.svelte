@@ -20,9 +20,11 @@
 	</div>
 	<h2>Registry</h2>
 	<hr class="smalldivider" />
-	<p>More info</p>
+	<p>We don't need anything, but if you'd like to help us with some of the below experiences feel free.</p>
 	<br />
 	<br />
+
+	<h3>Honeymoon Fund</h3><button class="button"><a href="https://buy.stripe.com/test_00gdSvaDl1sudJC8ww">Fund</a></button>
 </div>
 
 <style>
@@ -36,6 +38,22 @@
 		justify-content: center;
 		flex-direction: column;
 		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	button a {
+		text-decoration: none;
+	}
+
+	button a:hover {
+		text-decoration-line: underline;
+	}
+
+	.button {
+		padding: .5em;
+		font-size: large;
+		background-color: #3eca3e;
+		border-radius: 3px;
+		border: none;
 	}
 
 	@media screen and (max-width: 900px) {
