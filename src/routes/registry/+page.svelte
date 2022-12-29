@@ -1,7 +1,10 @@
 <script>
 	import Navbar from '$lib/navbar.svelte';
 	import Header from '$lib/header.svelte';
-	import Weddinginfo from '$lib/weddinginfo.svelte';
+
+    /** @type {import('./$types').PageData} */
+	export let data;
+	$: registryURLs = data.registryURLs;
 </script>
 
 <svelte:head>
@@ -24,7 +27,7 @@
 	<br />
 	<br />
 
-	<h3>Honeymoon Fund</h3><button class="button"><a href="https://buy.stripe.com/test_00gdSvaDl1sudJC8ww">Fund</a></button>
+	<h3>Honeymoon Fund</h3><button class="button"><a href={registryURLs.honeymoon}>Fund</a></button>
 </div>
 
 <style>
