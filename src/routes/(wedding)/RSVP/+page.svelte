@@ -1,27 +1,15 @@
-<script>
-	import Navbar from '$lib/navbar.svelte';
-	import Header from '$lib/header.svelte';
-	import Weddinginfo from '$lib/weddinginfo.svelte';
-</script>
-
 <svelte:head>
 	<title>RSVP | Beth & Josh</title>
 	<meta name="description" content="Beth and Josh" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
 
-<Header />
-
-<Navbar />
-
 <div style="display:flex;justify-content: center; margin-top: 2em;">
 	<img src="/images/gothicdip.jpg" alt="Beth and Josh in Gothic Quarter" />
 </div>
 
-<Weddinginfo />
-
 <div class="divider">
-	<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
+	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 </div>
 <div class="rsvpform">
 	

@@ -1,17 +1,8 @@
-<script>
-	import Navbar from '$lib/navbar.svelte';
-	import Header from '$lib/header.svelte';
-</script>
-
 <svelte:head>
 	<title>Schedule | Beth & Josh</title>
 	<meta name="description" content="Schedule" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
-
-<Header />
-
-<Navbar />
 
 <div class="schedule">
 	<div style="margin: 1em;">
@@ -19,7 +10,7 @@
 	</div>
 	<div class="content">
 		<br />
-		<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
+		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Friday, August 25</h3>
 		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
@@ -31,7 +22,7 @@
 			<p class="description">Rehearsal Dinner at City Lights Brewery</p>
 		</div>
 		<br />
-		<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
+		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Saturday, August 26</h3>
 		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
@@ -55,7 +46,7 @@
 			<p class="description">After party at On Tap</p>
 		</div>
 		<br />
-		<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
+		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Sunday, August 27</h3>
 		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
@@ -135,21 +126,12 @@
 			min-width: 75%;
 			text-align: left;
 		}
-
-		.smalldivider {
-			margin-bottom: 0.75em;
-			min-width: 60%;
-		}
 	}
 	h3 {
 		margin: 0 0 0.3em 0;
 		color: #70712f;
 	}
 
-	.smalldivider {
-		width: 25%;
-		border-top: 1px solid #e7a423;
-	}
 	img {
 		max-width: 100%;
 		height: auto;

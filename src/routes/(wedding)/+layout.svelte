@@ -14,32 +14,14 @@
 
 <Navbar />
 
-<div style="text-align: center; margin-top: 1%;">
-	<img src="/images/stairsSitting.jpg" alt="Beth and Josh sitting" />
-</div>
+<slot />
 
-<!-- <hr /> -->
 <Weddinginfo />
-<!-- <br />
-<br /> -->
-<img id="footer" src="/longbottomborder.svg"/>
+<img id="footer" alt="" src="/longbottomborder.svg"/>
 
 <style>
 	* {
 		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	}
-	/* hr {
-		width: 90%;
-		border-top: 2px dotted green;
-		margin-top: 2%;
-		margin-bottom: 3%;
-		animation: fadeIn ease 1.5s;
-	} */
-
-	img {
-		max-width: 100%;
-		height: auto;
-		animation: fadeIn ease 1.5s;
 	}
 
 	#footer {

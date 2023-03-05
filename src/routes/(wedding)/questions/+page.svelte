@@ -1,17 +1,8 @@
-<script>
-	import Navbar from '$lib/navbar.svelte';
-	import Header from '$lib/header.svelte';
-</script>
-
 <svelte:head>
 	<title>Q&A | Beth & Josh</title>
 	<meta name="description" content="Accommodations" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
-
-<Header />
-
-<Navbar />
 
 <div class="mainstuff">
 	<div style="text-align: center;">
@@ -19,10 +10,8 @@
 	</div>
 	<br />
 	<br />
-	<!-- <hr class="smalldivider" /> -->
-	<img src="/dividersimple.svg" style="height: 1.5em; margin-top: 1.5em;"/>
+	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Questions</h2>
-	<!-- <hr class="smalldivider" /> -->
 	<h3>When do I need to RSVP?</h3>
 	<p>Please RSVP before May 30, 2023.</p>
 	<h3>Can I bring a date?</h3>
@@ -69,8 +58,7 @@
 	@media screen and (max-width: 900px) {
 		h2,
 		h3,
-		p,
-		.smalldivider {
+		p {
 			min-width: 75%;
 		}
 
@@ -86,10 +74,6 @@
 
 		p {
 			font-size: 1em;
-		}
-
-		.smalldivider {
-			margin: 0;
 		}
 	}
 
@@ -113,11 +97,6 @@
 		margin-bottom: 0;
 		color: #424620;
 		font-weight: 600;
-	}
-
-	.smalldivider {
-		width: 25%;
-		border-top: 1px solid #e7a423;
 	}
 
 	p {

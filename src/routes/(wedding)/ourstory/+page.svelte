@@ -1,25 +1,16 @@
-<script>
-	import Navbar from '$lib/navbar.svelte';
-	import Header from '$lib/header.svelte';
-</script>
-
 <svelte:head>
 	<title>Our Story | Beth & Josh</title>
 	<meta name="description" content="Our Story" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
 
-<Header />
-
-<Navbar />
-
 <div class="ourstory">
 	<div style="text-align: center; margin-top: 1%; ">
 		<img src="/images/waterreflection.jpg" alt="Beth and Josh in Gothic Quarter" />
 	</div>
-	<img src="/dividersimple.svg" style="height: 1.5em; margin-top: 1.5em;"/>
+	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Our Story</h2>
-	<!-- <hr class="smalldivider" /> -->
+
 	<div class="thestory">
 		<p>
 			Beth and Josh's story starts when the two found themselves at several of the same college
@@ -78,8 +69,7 @@
 
 	@media screen and (max-width: 900px) {
 		h2,
-		p,
-		.smalldivider {
+		p {
 			min-width: 75%;
 			animation: fadeIn ease 1.5s;
 		}
@@ -104,8 +94,7 @@
 	}
 
 	h2,
-	p,
-	.smalldivider {
+	p {
 		animation: fadeIn ease 1.5s;
 	}
 	h2 {
@@ -114,11 +103,6 @@
 		color: #424620;
 		width: 40%;
 		text-align: center;
-	}
-
-	.smalldivider {
-		width: 25%;
-		border-top: 1px solid #e7a423;
 	}
 
 	img {

@@ -1,7 +1,4 @@
 <script>
-	import Navbar from '$lib/navbar.svelte';
-	import Header from '$lib/header.svelte';
-
     /** @type {import('./$types').PageData} */
 	export let data;
 	$: registryURLs = data.registryURLs;
@@ -13,15 +10,11 @@
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
 
-<Header />
-
-<Navbar />
-
 <div class="registry">
 	<div style="text-align: center; margin-top: 1%; ">
 		<img src="/images/gothicsnooty.jpg" alt="Beth and Josh being snooty" />
 	</div>
-	<img src="/dividersimple.svg" style="height: 1.5em; margin-top: 1.5em;"/>
+	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Registry</h2>
 	<!-- <hr class="smalldivider" /> -->
 	<p>We don't need anything, but if you'd like to help us with some of the below experiences, use the link below to add to our honeymoon fund.</p>
@@ -62,8 +55,7 @@
 
 	@media screen and (max-width: 900px) {
 		h2,
-		p,
-		.smalldivider {
+		p {
 			min-width: 75%;
 		}
 
@@ -83,11 +75,6 @@
 		font-family: Merriweather;
 		font-size: 2em;
 		color: #424620;
-	}
-
-	.smalldivider {
-		width: 25%;
-		border-top: 1px solid #e7a423;
 	}
 
 	p {

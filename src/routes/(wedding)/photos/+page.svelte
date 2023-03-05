@@ -1,7 +1,5 @@
 <!-- https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ -->
 <script>
-	import Navbar from '$lib/navbar.svelte';
-	import Header from '$lib/header.svelte';
 	import { LightboxGallery, GalleryImage, GalleryThumbnail } from 'svelte-lightbox';
 
 	const images_col1 = [
@@ -65,10 +63,6 @@
 	<meta name="description" content="Photos" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
-
-<Header />
-
-<Navbar />
 
 <!-- Photo Grid -->
 <div class="row">
