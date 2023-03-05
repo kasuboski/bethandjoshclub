@@ -17,8 +17,9 @@
 	<div style="text-align: center; margin-top: 1%; ">
 		<img src="/images/waterreflection.jpg" alt="Beth and Josh in Gothic Quarter" />
 	</div>
+	<img src="/dividersimple.svg" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Our Story</h2>
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
 	<div class="thestory">
 		<p>
 			Beth and Josh's story starts when the two found themselves at several of the same college
@@ -84,8 +85,9 @@
 		}
 
 		h2 {
-			font-size: 1.25em;
-			margin: 1em 0em 0.2em 0em;
+			font-family: Merriweather;
+			font-size: 1.5em;
+			color: #424620;
 			animation: fadeIn ease 1.5s;
 		}
 
@@ -107,13 +109,16 @@
 		animation: fadeIn ease 1.5s;
 	}
 	h2 {
+		font-family: Merriweather;
+		font-size: 2em;
+		color: #424620;
 		width: 40%;
 		text-align: center;
 	}
 
 	.smalldivider {
-		width: 60%;
-		border-top: 1px dotted green;
+		width: 25%;
+		border-top: 1px solid #e7a423;
 	}
 
 	img {

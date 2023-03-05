@@ -19,8 +19,9 @@
 	</div>
 	<div class="content">
 		<br />
+		<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Friday, August 25</h3>
-		<hr class="smalldivider" />
+		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
 			<p class="time">5:30PM</p>
 			<p class="description">Rehearsal at the Best Place at the Historic Pabst Brewery</p>
@@ -30,8 +31,9 @@
 			<p class="description">Rehearsal Dinner at City Lights Brewery</p>
 		</div>
 		<br />
+		<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Saturday, August 26</h3>
-		<hr class="smalldivider" />
+		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
 			<p class="time">2:00PM</p>
 			<p class="description">Wedding party photos</p>
@@ -53,8 +55,9 @@
 			<p class="description">After party at On Tap</p>
 		</div>
 		<br />
+		<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Sunday, August 27</h3>
-		<hr class="smalldivider" />
+		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
 			<p class="time">10:00AM</p>
 			<p class="description">Brunch at the Klassen family household in Elm Grove, WI</p>
@@ -124,6 +127,7 @@
 		h3 {
 			font-size: 1.1em;
 			text-align: center;
+			color: #9e9e3e;
 		}
 
 		p {
@@ -139,10 +143,12 @@
 	}
 	h3 {
 		margin: 0 0 0.3em 0;
+		color: #70712f;
 	}
 
 	.smalldivider {
-		border-top: 1px dotted green;
+		width: 25%;
+		border-top: 1px solid #e7a423;
 	}
 	img {
 		max-width: 100%;

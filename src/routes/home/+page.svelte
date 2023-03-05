@@ -20,8 +20,9 @@
 
 <!-- <hr /> -->
 <Weddinginfo />
-<br />
-<br />
+<!-- <br />
+<br /> -->
+<img id="footer" src="/longbottomborder.svg"/>
 
 <style>
 	* {
@@ -39,6 +40,10 @@
 		max-width: 100%;
 		height: auto;
 		animation: fadeIn ease 1.5s;
+	}
+
+	#footer {
+		margin: 0;
 	}
 
 	@keyframes fadeIn {

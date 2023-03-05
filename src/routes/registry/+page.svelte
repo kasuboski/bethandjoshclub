@@ -21,9 +21,10 @@
 	<div style="text-align: center; margin-top: 1%; ">
 		<img src="/images/gothicsnooty.jpg" alt="Beth and Josh being snooty" />
 	</div>
+	<img src="/dividersimple.svg" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Registry</h2>
-	<hr class="smalldivider" />
-	<p>We don't need anything, but if you'd like to help us with some of the below experiences feel free.</p>
+	<!-- <hr class="smalldivider" /> -->
+	<p>We don't need anything, but if you'd like to help us with some of the below experiences, use the link below to add to our honeymoon fund.</p>
 	<br />
 	<br />
 
@@ -79,15 +80,19 @@
 	h2 {
 		width: 40%;
 		text-align: center;
+		font-family: Merriweather;
+		font-size: 2em;
+		color: #424620;
 	}
 
 	.smalldivider {
-		width: 60%;
-		border-top: 1px dotted green;
+		width: 25%;
+		border-top: 1px solid #e7a423;
 	}
 
 	p {
 		width: 60%;
+		text-align: center;
 	}
 
 	img {

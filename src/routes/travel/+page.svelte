@@ -19,25 +19,27 @@
 	</div>
 	<br />
 	<br />
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
 	<h2>Getting there</h2>
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
 	<p>
 		For out-of-state travellers, we recommend flying into General Mitchell Airport or O'Hare. The
 		Milwaukee airport is about 20 minutes from the venue. If you fly to Milwaukee, you should be
 		able to navigate the city by Uber or Lyft, or by rental car.
 	</p>
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
+	<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
 	<h2>Accommodations</h2>
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
 	<h3>Hyatt Place Downtown Milwaukee</h3>
 	<p>Info Wedding Code Link</p>
 	<br />
 	<h3>The Brewhouse Inn & Suites</h3>
 	<p>Info Wedding Code Link</p>
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
+	<img src="/dividersimple.svg" style="height: 1.5em; margin-bottom: 1em;"/>
 	<h2>While you're here</h2>
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
 	<p>
 		Have a couple days to stay in Milwaukee? There is so much to do in the city! Here are a couple
 		of options to check out while you're here.
@@ -98,6 +100,8 @@
 
 		h2 {
 			font-size: 1.25em;
+			font-family: Merriweather;
+			color: #424620;
 		}
 
 		h3,
@@ -115,6 +119,7 @@
 	.smalldivider,
 	p {
 		animation: fadeIn ease 1.5s;
+		margin-bottom: 2em;
 	}
 
 	img {
@@ -125,6 +130,10 @@
 		width: 50%;
 		text-align: center;
 		margin: 0.5em;
+		margin-top: 1em;
+		font-family: Merriweather;
+		font-size: 1.75em;
+		color: #424620;
 	}
 
 	h3 {
@@ -133,8 +142,12 @@
 	}
 
 	.smalldivider {
-		width: 50%;
-		border-top: 1px dotted green;
+		width: 25%;
+		border-top: 1px solid #e7a423;
+	}
+
+	a {
+		color: #775826;
 	}
 
 	p,

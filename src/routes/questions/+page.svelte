@@ -19,9 +19,10 @@
 	</div>
 	<br />
 	<br />
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
+	<img src="/dividersimple.svg" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Questions</h2>
-	<hr class="smalldivider" />
+	<!-- <hr class="smalldivider" /> -->
 	<h3>When do I need to RSVP?</h3>
 	<p>Please RSVP before May 30, 2023.</p>
 	<h3>Can I bring a date?</h3>
@@ -52,6 +53,7 @@
 </div>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 	* {
 		animation: fadeIn ease 1.5s;
 	}
@@ -74,6 +76,8 @@
 
 		h2 {
 			font-size: 1.1em;
+			font-family: Merriweather;
+			color: #424620;
 		}
 
 		h3 {
@@ -96,23 +100,30 @@
 	h2 {
 		width: 55%;
 		text-align: center;
-		margin: 0.5em;
+		margin-top: .5em;
+		margin-bottom: 0.2em;
+		font-family: Merriweather;
+		font-size: 2em;
+		color: #424620;
 	}
 
 	h3 {
 		width: 55%;
 		text-align: left;
 		margin-bottom: 0;
+		color: #424620;
+		font-weight: 600;
 	}
 
 	.smalldivider {
-		width: 55%;
-		border-top: 1px dotted green;
+		width: 25%;
+		border-top: 1px solid #e7a423;
 	}
 
 	p {
 		width: 55%;
 		text-align: left;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	@keyframes fadeIn {
