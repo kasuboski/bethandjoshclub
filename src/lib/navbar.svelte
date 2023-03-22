@@ -1,17 +1,17 @@
 <script>
-	import { page } from '$app/stores';
+	import Navlink from "./navlink.svelte";
 </script>
 
 <nav class="navbar">
 	<ul>
-		<a href="/home" class:active={$page.url.pathname.includes('/home')}>Home</a>
-		<a href="/RSVP" class:active={$page.url.pathname.includes('/RSVP')}>RSVP</a>
-		<a href="/ourstory" class:active={$page.url.pathname.includes('/ourstory')}>Our Story</a>
-		<a href="/schedule" class:active={$page.url.pathname.includes('/schedule')}>Schedule</a>
-		<a href="/travel" class:active={$page.url.pathname.includes('/travel')}>Travel</a>
-		<a href="/questions" class:active={$page.url.pathname.includes('/questions')}>Q&A</a>
-		<a href="/photos" class:active={$page.url.pathname.includes('/photos')}>Photos</a>
-		<a href="/registry" class:active={$page.url.pathname.includes('/registry')}>Registry</a>
+		<Navlink href="/home" display="Home"/>
+		<Navlink href="/RSVP" display="RSVP" />
+		<Navlink href="/ourstory" display="Our Story" />
+		<Navlink href="/schedule" display="Schedule" />
+		<Navlink href="/travel" display="Travel" />
+		<Navlink href="/questions" display="Q&A" />
+		<Navlink href="/photos" display="Photos" />
+		<Navlink href="/registry" display="Registry" />
 	</ul>
 </nav>
 
@@ -19,6 +19,7 @@
 
 <!-- need to add responsive menu, max width of 900px will need to be hamburger menu -->
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 	.navbar {
 		display: flex;
 		flex: 1;
@@ -26,9 +27,6 @@
 		width: 100%;
 		font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		margin-bottom: 1.5em;
-	}
-	.active {
-		color: rgb(30, 106, 40);
 	}
 
 	ul {
@@ -38,27 +36,10 @@
 		padding: 0;
 	}
 
-	a {
-		text-decoration: none;
-		color: black;
-		margin: 0em 0.25em;
-	}
-
-	/* hr {
-		width: 90%;
-		border-top: 2px dotted green;
-		margin-top: 2%;
-		margin-bottom: 3%;
-	} */
-
 	@media screen and (max-width: 900px) {
 		ul {
 			flex-direction: column;
 			text-align: center;
-		}
-		a {
-			font-size: 1em;
-			margin-top: 0.25em;
 		}
 	}
 </style>

@@ -1,17 +1,8 @@
-<script>
-	import Navbar from '$lib/navbar.svelte';
-	import Header from '$lib/header.svelte';
-</script>
-
 <svelte:head>
 	<title>Q&A | Beth & Josh</title>
 	<meta name="description" content="Accommodations" />
 	<meta property="og:image" content="/welcometotheclub.gif" />
 </svelte:head>
-
-<Header />
-
-<Navbar />
 
 <div class="mainstuff">
 	<div style="text-align: center;">
@@ -19,9 +10,8 @@
 	</div>
 	<br />
 	<br />
-	<hr class="smalldivider" />
+	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Questions</h2>
-	<hr class="smalldivider" />
 	<h3>When do I need to RSVP?</h3>
 	<p>Please RSVP before May 30, 2023.</p>
 	<h3>Can I bring a date?</h3>
@@ -52,6 +42,7 @@
 </div>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 	* {
 		animation: fadeIn ease 1.5s;
 	}
@@ -67,13 +58,14 @@
 	@media screen and (max-width: 900px) {
 		h2,
 		h3,
-		p,
-		.smalldivider {
+		p {
 			min-width: 75%;
 		}
 
 		h2 {
 			font-size: 1.1em;
+			font-family: Merriweather;
+			color: #424620;
 		}
 
 		h3 {
@@ -82,10 +74,6 @@
 
 		p {
 			font-size: 1em;
-		}
-
-		.smalldivider {
-			margin: 0;
 		}
 	}
 
@@ -96,23 +84,25 @@
 	h2 {
 		width: 55%;
 		text-align: center;
-		margin: 0.5em;
+		margin-top: .5em;
+		margin-bottom: 0.2em;
+		font-family: Merriweather;
+		font-size: 2em;
+		color: #424620;
 	}
 
 	h3 {
 		width: 55%;
 		text-align: left;
 		margin-bottom: 0;
-	}
-
-	.smalldivider {
-		width: 55%;
-		border-top: 1px dotted green;
+		color: #424620;
+		font-weight: 600;
 	}
 
 	p {
 		width: 55%;
 		text-align: left;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	@keyframes fadeIn {

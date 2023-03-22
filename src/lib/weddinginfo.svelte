@@ -19,6 +19,7 @@
 	h3 {
 		font-family: Merriweather;
 		font-size: 1.5em;
+		color: #424620;
 	}
 	p {
 		margin-bottom: 0;
