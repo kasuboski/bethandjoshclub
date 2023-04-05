@@ -20,4 +20,11 @@
 		margin-top: -1.6em;
 	}
 
+	@media screen and (max-width: 900px) {
+		h1 {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+
 </style>
