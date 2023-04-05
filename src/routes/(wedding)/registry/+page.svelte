@@ -40,6 +40,9 @@
 	button a {
 		text-decoration: none;
 	}
+	a {
+		color: #E7A423;
+	}
 
 	button a:hover {
 		text-decoration-line: underline;
@@ -48,7 +51,7 @@
 	.button {
 		padding: .5em;
 		font-size: large;
-		background-color: #3eca3e;
+		background-color: #775826;
 		border-radius: 3px;
 		border: none;
 	}

@@ -20,14 +20,14 @@
 	</p>
 	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 	<h2>Accommodations</h2>
+	<p>There are multiple hotels nearby with the below being incredibly close.</p>
 	<h3>Hyatt Place Downtown Milwaukee</h3>
-	<p>Info Wedding Code Link</p>
+	<p><a href="https://goo.gl/maps/APrKLTYw8t6SuoEg6">Google Maps</a></p>
 	<br />
 	<h3>The Brewhouse Inn & Suites</h3>
-	<p>Info Wedding Code Link</p>
+	<p><a href="https://goo.gl/maps/UY5rCmuxKDYFRAvv6">Google Maps</a></p>
 	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 	<h2>While you're here</h2>
-	<!-- <hr class="smalldivider" /> -->
 	<p>
 		Have a couple days to stay in Milwaukee? There is so much to do in the city! Here are a couple
 		of options to check out while you're here.

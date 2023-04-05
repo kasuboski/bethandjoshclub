@@ -1,6 +1,6 @@
 <div class="weddinginfo">
 	<h3>The Best Place at the Historic Pabst Brewery</h3>
-	<p>Saturday, August 23, 2026</p>
+	<p>Saturday, August 26, 2023</p>
 	<p>Milwaukee, WI</p>
 </div>
 

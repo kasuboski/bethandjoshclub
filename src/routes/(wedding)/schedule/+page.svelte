@@ -12,7 +12,6 @@
 		<br />
 		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Friday, August 25</h3>
-		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
 			<p class="time">5:30PM</p>
 			<p class="description">Rehearsal at the Best Place at the Historic Pabst Brewery</p>
@@ -24,17 +23,16 @@
 		<br />
 		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Saturday, August 26</h3>
-		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
 			<p class="time">2:00PM</p>
 			<p class="description">Wedding party photos</p>
 		</div>
 		<div class="activities">
-			<p class="time">4:30PM</p>
+			<p class="time">5:00PM</p>
 			<p class="description">Ceremony at the Best Place at the Historic Pabst Brewery</p>
 		</div>
 		<div class="activities">
-			<p class="time">5:00 to 6:30PM</p>
+			<p class="time">5:30 to 6:30PM</p>
 			<p class="description">Photos and cocktail hour</p>
 		</div>
 		<div class="activities">
@@ -48,7 +46,6 @@
 		<br />
 		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Sunday, August 27</h3>
-		<!-- <hr class="smalldivider" /> -->
 		<div class="activities">
 			<p class="time">10:00AM</p>
 			<p class="description">Brunch at the Klassen family household in Elm Grove, WI</p>
