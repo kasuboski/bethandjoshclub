@@ -6,7 +6,7 @@ const testURLs = {
 };
 
 const prodURLs = {
-    "honeymoon": "",
+    "honeymoon": "https://buy.stripe.com/4gw3dZan87H7eDS4gg",
 };
 
 /** @type {import('./$types').PageServerLoad} */
