@@ -29,8 +29,8 @@
 	<p>
 		We encourage you to take a cab or walk if you are staying nearby, otherwise there is parking at
 		the <a
-			href="https://www.google.com/maps/place/Brewery+Parking+Structure/@43.0457378,-87.9246908,18z/data=!4m12!1m6!3m5!1s0x8805197097bbc625:0x520f6810dd74598d!2sBest+Place+at+the+Historic+Pabst+Brewery!8m2!3d43.0455111!4d-87.9233972!3m4!1s0x88051995855600b7:0xda5d12a2f242fc59!8m2!3d43.0463128!4d-87.9232916"
-			>Brewery District Garage.</a
+			href="https://goo.gl/maps/rT7jxJhA12kY8t55A"
+			>nearby garage.</a
 		>
 	</p>
 	<h3>Who can I reach out to with questions?</h3>

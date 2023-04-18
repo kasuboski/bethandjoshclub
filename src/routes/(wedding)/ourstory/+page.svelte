@@ -21,23 +21,6 @@
 			began dating their senior year of college.
 		</p>
 		<p>
-			After graduation, they embarked on a long-distance journey, as Josh had accepted a job in
-			Austin, while Beth started working in Madison. For almost two years they would travel back and
-			forth between cities on weekends, spending many weeknights on Google Hangouts and tallying
-			their text count as it hit the ten thousands.
-		</p>
-		<p>
-			Having had their fair share of missed connections and lonely nights, they decided to be
-			together in Madison. Josh was lucky to find a remote job (before it was cool!) so he could
-			move back to Madison in 2018. The two lived happily ever after...
-		</p>
-		<p>
-			But wait! After a year together in Madison, it was time for them to experience a different
-			city. After much debate, Beth and Josh realized Austin was the place where they fell in love,
-			and wanted to experience more. They moved to Austin in August 2019 and have lived there ever
-			since, enjoying the breakfast tacos, live music, and breweries.
-		</p>
-		<p>
 			In 2022, after 6 years together, Josh proposed to Beth after a fancy dinner. Beth, of course,
 			said yes, and the couple is excited to celebrate their next journey with you.
 		</p>

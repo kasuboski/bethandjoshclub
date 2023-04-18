@@ -18,6 +18,7 @@
 		Milwaukee airport is about 20 minutes from the venue. If you fly to Milwaukee, you should be
 		able to navigate the city by Uber or Lyft, or by rental car.
 	</p>
+	<p>There will not be a shuttle from any hotels to the venue. There is paid parking at the <a href="https://goo.gl/maps/rT7jxJhA12kY8t55A">nearby garage.</a></p>
 	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 	<h2>Accommodations</h2>
 	<p>There are multiple hotels nearby with the below being incredibly close.</p>
