@@ -12,7 +12,7 @@
 
 <div class="registry">
 	<div style="text-align: center; margin-top: 1%; ">
-		<img src="/images/gothicsnooty.jpg" alt="Beth and Josh being snooty" />
+		<img src="/images/gothicspin.jpg" alt="Beth and Josh being snooty" />
 	</div>
 	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Registry</h2>
@@ -21,7 +21,7 @@
 	<br />
 	<br />
 
-	<h3>Honeymoon Fund</h3><button class="button"><a href={registryURLs.honeymoon}>Fund</a></button>
+	<button class="button"><a href={registryURLs.honeymoon}>Honeymoon Fund</a></button>
 </div>
 
 <style>

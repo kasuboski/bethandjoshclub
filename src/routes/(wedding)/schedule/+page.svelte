@@ -87,6 +87,7 @@
 		margin-left: 5em;
 	}
 	.time {
+		font-weight: bold;
 		flex: 1;
 		margin-left: 2em;
 	}
