@@ -25,13 +25,17 @@
 	a img {
 		max-width: 1.5rem;
 		position: absolute;
-		left: -1.6rem;
+		left: -2rem;
 	}
 
 	@media screen and (max-width: 900px) {
 		a {
 			font-size: 1em;
 			margin-top: 0.25em;
+		}
+		
+		a img {
+			left: 1.4rem;
 		}
 	}
 </style>
