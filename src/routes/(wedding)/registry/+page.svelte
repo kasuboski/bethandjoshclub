@@ -17,7 +17,7 @@
 	<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-top: 1.5em;"/>
 	<h2>Registry</h2>
 	<!-- <hr class="smalldivider" /> -->
-	<p>We don't need anything, but if you'd like to help us with some of the below experiences, use the link below to add to our honeymoon fund.</p>
+	<p>If you'd like to help us with take a honeymoon trip use the link below to add to our honeymoon fund.</p>
 	<br />
 	<br />
 
