@@ -13,11 +13,11 @@
 		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
 		<h3>Friday, August 25</h3>
 		<div class="activities">
-			<p class="time">5:30PM</p>
+			<p class="time">4:00PM</p>
 			<p class="description">Rehearsal at the Best Place at the Historic Pabst Brewery</p>
 		</div>
 		<div class="activities">
-			<p class="time">6:30PM</p>
+			<p class="time">6:00PM</p>
 			<p class="description">Rehearsal Dinner at City Lights Brewery</p>
 		</div>
 		<br />
