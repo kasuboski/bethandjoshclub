@@ -18,7 +18,7 @@
 		</div>
 		<div class="activities">
 			<p class="time">6:00PM</p>
-			<p class="description">Rehearsal Dinner at City Lights Brewery</p>
+			<p class="description">Rehearsal Dinner with family and wedding party at City Lights Brewery</p>
 		</div>
 		<br />
 		<img src="/dividersimple.svg" alt="" style="height: 1.5em; margin-bottom: 1em;"/>
